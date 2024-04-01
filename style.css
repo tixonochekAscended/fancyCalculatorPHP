@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300;400;500;600;700&family=Reddit+Mono:wght@200..900&display=swap');
+
+* {
+    font-family: "Reddit Mono", monospace;
+    font-weight: 550;
+}
+
+body {
+    background-color: rgb(4, 3, 14);
+    color: whitesmoke;
+}
+
+.ui {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.ui button {
+    color: rgba(255, 255, 255, 0.206);
+    font-size: 35px;
+    width: 125px;
+    height: 125px;
+    border: none;
+    background-color: rgb(4, 3, 14);
+    transition: 0.15s ease-in-out;
+}
+.ui button:hover {
+    color: whitesmoke;
+    font-size: 36px;
+    background-color: rgb(8, 6, 30);
+}
+.ui button:active {
+    color: whitesmoke;
+    font-size: 36px;
+    background-color: rgb(19, 15, 62);
+}
+
+.ui button.unactive {
+    width: 125px;
+    height: 125px;
+    border: none;
+    background-color: rgb(4, 3, 14);
+    color: rgb(4, 3, 14);
+}
+
+.ui ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.output {
+    font-size: 55px;
+    margin: 5vw;
+    text-shadow: 0 0 20px #fff;
+    text-align: center;
+}
+.output .operation {
+    font-size: 25px;
+    padding: 1vw;
+    text-shadow: 0 0 20px #3f3f3f;
+    color: rgb(85, 85, 85);
+}
+
+.redOutput {
+    font-size: 55px;
+    margin: 5vw;
+    text-shadow: 0 0 50px #900000
+}
+
+.bl {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 1vw;
+    padding: 1vw;
+    font-size: 25px;
+    color: rgb(68, 0, 0);
+    text-shadow: 0 0 20px rgb(68, 0, 0);
+}
